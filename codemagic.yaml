@@ -4,17 +4,17 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: WarriorSpeechAPIKey
+      app_store_connect: SpeechAPIKey
     environment:
       xcode: '26.0'
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.fjdsk.eowejasd
+        bundle_identifier: com.dssadsf.sjsakdn
       vars:
-        BUNDLE_ID: com.fjdsk.eowejasd
+        BUNDLE_ID: com.dssadsf.sjsakdn
         XCODE_WORKSPACE: AmazonkaWarriorSpeech.xcworkspace
         XCODE_SCHEME: AmazonkaWarriorSpeech
-        APP_STORE_APPLE_ID: 6773000604
+        APP_STORE_APPLE_ID: 6773064812
     scripts:
       - name: Install npm dependencies
         script: |
