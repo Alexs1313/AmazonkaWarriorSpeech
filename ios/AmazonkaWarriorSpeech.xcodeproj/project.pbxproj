@@ -10,17 +10,18 @@
 		0C80B921A6F3F58F76C31292 /* libPods-AmazonkaWarriorSpeech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AmazonkaWarriorSpeech.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		557E53FAA3C6D8BCB4E945CC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		7BFF43C73087450A97FB3A3A /* Cinzel-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D62E1A0DA804944969A9DB0 /* Cinzel-Black.ttf */; };
 		6A62177B7C594DB4A88B6955 /* Cinzel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD56843BBD3D4D9F826B44AF /* Cinzel-Bold.ttf */; };
-		E5E14CF8CDE04459BC1ADC60 /* Cinzel-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65329189B85A47D181C21305 /* Cinzel-SemiBold.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7BFF43C73087450A97FB3A3A /* Cinzel-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D62E1A0DA804944969A9DB0 /* Cinzel-Black.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BAAF2E23FD4541DAAE332403 /* Cinzel-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4F79FF1C3D74959980863B1 /* Cinzel-Medium.ttf */; };
-		F7ED2560A53F46C4954F490E /* Cinzel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C37B4D53C1C49B68987109A /* Cinzel-Regular.ttf */; };
 		BFEA5F9B3A174F85A93F50F9 /* Cinzel-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93D0F2ECC6E14399B2853ED2 /* Cinzel-ExtraBold.ttf */; };
+		E5E14CF8CDE04459BC1ADC60 /* Cinzel-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65329189B85A47D181C21305 /* Cinzel-SemiBold.ttf */; };
+		F7ED2560A53F46C4954F490E /* Cinzel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C37B4D53C1C49B68987109A /* Cinzel-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C37B4D53C1C49B68987109A /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Regular.ttf"; path = "../assets/f/Cinzel-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AmazonkaWarriorSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonkaWarriorSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AmazonkaWarriorSpeech/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AmazonkaWarriorSpeech/Info.plist; sourceTree = "<group>"; };
@@ -28,15 +29,14 @@
 		3B4392A12AC88292D35C810B /* Pods-AmazonkaWarriorSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonkaWarriorSpeech.debug.xcconfig"; path = "Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AmazonkaWarriorSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonkaWarriorSpeech.release.xcconfig"; path = "Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AmazonkaWarriorSpeech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazonkaWarriorSpeech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65329189B85A47D181C21305 /* Cinzel-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-SemiBold.ttf"; path = "../assets/f/Cinzel-SemiBold.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AmazonkaWarriorSpeech/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AmazonkaWarriorSpeech/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93D0F2ECC6E14399B2853ED2 /* Cinzel-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-ExtraBold.ttf"; path = "../assets/f/Cinzel-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9D62E1A0DA804944969A9DB0 /* Cinzel-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Black.ttf"; path = "../assets/f/Cinzel-Black.ttf"; sourceTree = "<group>"; };
+		B4F79FF1C3D74959980863B1 /* Cinzel-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Medium.ttf"; path = "../assets/f/Cinzel-Medium.ttf"; sourceTree = "<group>"; };
+		CD56843BBD3D4D9F826B44AF /* Cinzel-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Bold.ttf"; path = "../assets/f/Cinzel-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		9D62E1A0DA804944969A9DB0 /* Cinzel-Black.ttf */ = {isa = PBXFileReference; name = "Cinzel-Black.ttf"; path = "../assets/f/Cinzel-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CD56843BBD3D4D9F826B44AF /* Cinzel-Bold.ttf */ = {isa = PBXFileReference; name = "Cinzel-Bold.ttf"; path = "../assets/f/Cinzel-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		65329189B85A47D181C21305 /* Cinzel-SemiBold.ttf */ = {isa = PBXFileReference; name = "Cinzel-SemiBold.ttf"; path = "../assets/f/Cinzel-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B4F79FF1C3D74959980863B1 /* Cinzel-Medium.ttf */ = {isa = PBXFileReference; name = "Cinzel-Medium.ttf"; path = "../assets/f/Cinzel-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0C37B4D53C1C49B68987109A /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; name = "Cinzel-Regular.ttf"; path = "../assets/f/Cinzel-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		93D0F2ECC6E14399B2853ED2 /* Cinzel-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Cinzel-ExtraBold.ttf"; path = "../assets/f/Cinzel-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +61,19 @@
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
 			name = AmazonkaWarriorSpeech;
+			sourceTree = "<group>";
+		};
+		207F3951EC3C4962BF89595F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D62E1A0DA804944969A9DB0 /* Cinzel-Black.ttf */,
+				CD56843BBD3D4D9F826B44AF /* Cinzel-Bold.ttf */,
+				65329189B85A47D181C21305 /* Cinzel-SemiBold.ttf */,
+				B4F79FF1C3D74959980863B1 /* Cinzel-Medium.ttf */,
+				0C37B4D53C1C49B68987109A /* Cinzel-Regular.ttf */,
+				93D0F2ECC6E14399B2853ED2 /* Cinzel-ExtraBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -110,20 +123,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		207F3951EC3C4962BF89595F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				9D62E1A0DA804944969A9DB0 /* Cinzel-Black.ttf */,
-				CD56843BBD3D4D9F826B44AF /* Cinzel-Bold.ttf */,
-				65329189B85A47D181C21305 /* Cinzel-SemiBold.ttf */,
-				B4F79FF1C3D74959980863B1 /* Cinzel-Medium.ttf */,
-				0C37B4D53C1C49B68987109A /* Cinzel-Regular.ttf */,
-				93D0F2ECC6E14399B2853ED2 /* Cinzel-ExtraBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -224,9 +223,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -263,9 +266,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -306,10 +313,15 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjdsk.eowejasd;
 				PRODUCT_NAME = AmazonkaWarriorSpeech;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -333,9 +345,14 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fjdsk.eowejasd;
 				PRODUCT_NAME = AmazonkaWarriorSpeech;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -409,10 +426,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -481,10 +495,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

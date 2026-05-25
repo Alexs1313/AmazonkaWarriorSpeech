@@ -1,10 +1,10 @@
 import {NavigationContainer} from '@react-navigation/native';
-import AmznkaWrriorSpeechStack from './AmznkaWrriorSpeechScr/AmznkaWrriorSpeechNav/AmznkaWrriorSpeechStack.tsx';
+import VoiceFlowNavigator from './src/navigation/VoiceFlowStack';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <AmznkaWrriorSpeechStack />
+      <VoiceFlowNavigator />
     </NavigationContainer>
   );
 };
