@@ -7,35 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0117C62212524793A058AE0D /* amzznkWrriorsppeechIconShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37CF3769EE43EABE11706A /* amzznkWrriorsppeechIconShare.png */; };
+		0A74DFCF40BD469AA50282F1 /* amzznkWrriorsppeechTabOracle.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F817CEB8A24C88961E470D /* amzznkWrriorsppeechTabOracle.png */; };
 		0C80B921A6F3F58F76C31292 /* libPods-AmazonkaWarriorSpeech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AmazonkaWarriorSpeech.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		14F3E0E497274F53B62C43F9 /* amzznkWrriorsppeechReadPause.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7EB1636B644A1CA3FDE965 /* amzznkWrriorsppeechReadPause.png */; };
+		15555F0DEAAC4FB98DAB2F2A /* amzznkWrriorsppeechReadResume.png in Resources */ = {isa = PBXBuildFile; fileRef = 9093C7A399A943A785FD0A00 /* amzznkWrriorsppeechReadResume.png */; };
 		1D28A1BCE9064C13961F62D3 /* Cinzel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12C01F6E0B14DBC86CEA858 /* Cinzel-Regular.ttf */; };
+		22257ADD3E4948D7BD8F20D1 /* amzznkWrriorsppeechChevronRight.png in Resources */ = {isa = PBXBuildFile; fileRef = A2778AC3F2C5417BA872300A /* amzznkWrriorsppeechChevronRight.png */; };
+		247907AA21A8405CA65E338C /* amzznkWrriorsppeechReadDone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8F109573DC47078713381E /* amzznkWrriorsppeechReadDone.png */; };
+		2702A222EE3C453BB8BB78B4 /* amzznkWrriorsppeechStudioEdit.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C48F4728D94B089E5F7C15 /* amzznkWrriorsppeechStudioEdit.png */; };
 		28FB60918F9D4786A530522E /* Cinzel-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 410B5E436FD74FE5B1752B03 /* Cinzel-Medium.ttf */; };
 		2A49DF8D56D74B2BA768D79B /* Cinzel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2B9726E76F946E69AB87C06 /* Cinzel-Bold.ttf */; };
+		31138B1609D246FE9F5DEF4D /* amzznkWrriorsppeechOracleTimer.png in Resources */ = {isa = PBXBuildFile; fileRef = D210689089F845B890E9BDBC /* amzznkWrriorsppeechOracleTimer.png */; };
+		3CBF3EE8114544EA9921E75B /* amzznkWrriorsppeechWalkSlide4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFBF8BEAC414E17A2D3336B /* amzznkWrriorsppeechWalkSlide4.png */; };
+		46EC87CC1D7243B18119835D /* amzznkWrriorsppeechOutcomeSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 97CDCBBEAA544B738992795A /* amzznkWrriorsppeechOutcomeSuccess.png */; };
+		4812A336C71645159C7416FF /* amzznkWrriorsppeechWalkSlide3.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E1E23CC03E4F7C91031632 /* amzznkWrriorsppeechWalkSlide3.png */; };
+		488A7E2A9EBD47A981AB951E /* amzznkWrriorsppeechSceneBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 037D5FB1E26E4FC2AE0513BE /* amzznkWrriorsppeechSceneBackground.png */; };
+		4B6EC881313240679F86B35E /* amzznkWrriorsppeechVaultUnlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D80715F09334B82A6796D37 /* amzznkWrriorsppeechVaultUnlock.png */; };
+		52DD75CFC1A24A1AB7AAE8E2 /* amzznkWrriorsppeechIconBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E10D657140C45D0964845B4 /* amzznkWrriorsppeechIconBack.png */; };
 		557E53FAA3C6D8BCB4E945CC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		5F7F832F70804884B14D56D5 /* amzznkWrriorsppeechWalkSlide1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9910C8DB424780A5B45AED /* amzznkWrriorsppeechWalkSlide1.png */; };
+		65473D85F9F842829F4906CC /* amzznkWrriorsppeechTabStudio.png in Resources */ = {isa = PBXBuildFile; fileRef = C445A61AD4524746A7856522 /* amzznkWrriorsppeechTabStudio.png */; };
+		6E8D5F5B4CF142F99905AB08 /* amzznkWrriorsppeechTabChronicle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4872E0C564324461B612AACA /* amzznkWrriorsppeechTabChronicle.png */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8628D0FD18D64242BC49D6D1 /* Cinzel-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15D1EE3510C43C7BCAB993E /* Cinzel-ExtraBold.ttf */; };
+		89A6DC6BA5BB4919A91C672C /* amzznkWrriorsppeechWalkSlide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0917C82BAC470F922DAF33 /* amzznkWrriorsppeechWalkSlide2.png */; };
+		89C835CE51C441D8A57BBE65 /* amzznkWrriorsppeechTabNotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B03894B2C204A9CB3D2ED15 /* amzznkWrriorsppeechTabNotes.png */; };
+		8E8BE7B44FB047B6BADCF9A2 /* amzznkWrriorsppeechIconFavoriteOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC8872878F442D8B6CA20B /* amzznkWrriorsppeechIconFavoriteOff.png */; };
+		8FDC10147F9F4010B3F336F7 /* amzznkWrriorsppeechStudioDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB4C65A2FAF4B60A2BF161B /* amzznkWrriorsppeechStudioDelete.png */; };
+		980532BE346A44CBB928E2EC /* amzznkWrriorsppeechIconFavoriteOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D67FAC1D201483D827A1071 /* amzznkWrriorsppeechIconFavoriteOn.png */; };
+		98650E647EC0444C82DC0A86 /* amzznkWrriorsppeechWalkSlide5.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D4C811B4FA4862900B21AB /* amzznkWrriorsppeechWalkSlide5.png */; };
+		A31D174CD7734E2EA6E4DFE2 /* amzznkWrriorsppeechCrestMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A292606E1E4A5583167FA1 /* amzznkWrriorsppeechCrestMark.png */; };
 		A6B1F4BC96964151BAFAD531 /* Cinzel-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7617880287F0401086D9D42E /* Cinzel-SemiBold.ttf */; };
+		ADFC74A336F9413C87800328 /* amzznkWrriorsppeechTabVault.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A504FEB918D4A5588DE519C /* amzznkWrriorsppeechTabVault.png */; };
+		B1D4F0983A9647AC988C3924 /* amzznkWrriorsppeechSplashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0FED810C07466881E1D08B /* amzznkWrriorsppeechSplashLogo.png */; };
 		C225AEB7EB4E4FDE843BAEE3 /* Cinzel-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78000792DBA141979E25D073 /* Cinzel-Black.ttf */; };
+		C759EF4E20534EAFA6530A53 /* amzznkWrriorsppeechTipPick.png in Resources */ = {isa = PBXBuildFile; fileRef = C59E942EF3654B44BA927326 /* amzznkWrriorsppeechTipPick.png */; };
+		D5ECDBD9B3D04C50B513B634 /* amzznkWrriorsppeechTabFlow.png in Resources */ = {isa = PBXBuildFile; fileRef = AA745EB6B8D549D4B07D08D2 /* amzznkWrriorsppeechTabFlow.png */; };
+		DBEBB21295714F24A3B6B83F /* amzznkWrriorsppeechReadRestart.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2B02E6D96746308F95B8ED /* amzznkWrriorsppeechReadRestart.png */; };
+		E0773BD06AEF4F11B0F569C1 /* amzznkWrriorsppeechStudioAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD162B4F63B4C2BA7AA564D /* amzznkWrriorsppeechStudioAdd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		037D5FB1E26E4FC2AE0513BE /* amzznkWrriorsppeechSceneBackground.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechSceneBackground.png; path = ../assets/images/amzznkWrriorsppeechSceneBackground.png; sourceTree = "<group>"; };
+		08C48F4728D94B089E5F7C15 /* amzznkWrriorsppeechStudioEdit.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechStudioEdit.png; path = ../assets/images/amzznkWrriorsppeechStudioEdit.png; sourceTree = "<group>"; };
+		0AFBF8BEAC414E17A2D3336B /* amzznkWrriorsppeechWalkSlide4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechWalkSlide4.png; path = ../assets/images/amzznkWrriorsppeechWalkSlide4.png; sourceTree = "<group>"; };
+		0D80715F09334B82A6796D37 /* amzznkWrriorsppeechVaultUnlock.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechVaultUnlock.png; path = ../assets/images/amzznkWrriorsppeechVaultUnlock.png; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AmazonkaWarriorSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonkaWarriorSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AmazonkaWarriorSpeech/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AmazonkaWarriorSpeech/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = AmazonkaWarriorSpeech/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1D67FAC1D201483D827A1071 /* amzznkWrriorsppeechIconFavoriteOn.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechIconFavoriteOn.png; path = ../assets/images/amzznkWrriorsppeechIconFavoriteOn.png; sourceTree = "<group>"; };
+		1E10D657140C45D0964845B4 /* amzznkWrriorsppeechIconBack.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechIconBack.png; path = ../assets/images/amzznkWrriorsppeechIconBack.png; sourceTree = "<group>"; };
+		2B03894B2C204A9CB3D2ED15 /* amzznkWrriorsppeechTabNotes.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTabNotes.png; path = ../assets/images/amzznkWrriorsppeechTabNotes.png; sourceTree = "<group>"; };
+		2EDC8872878F442D8B6CA20B /* amzznkWrriorsppeechIconFavoriteOff.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechIconFavoriteOff.png; path = ../assets/images/amzznkWrriorsppeechIconFavoriteOff.png; sourceTree = "<group>"; };
+		38A292606E1E4A5583167FA1 /* amzznkWrriorsppeechCrestMark.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechCrestMark.png; path = ../assets/images/amzznkWrriorsppeechCrestMark.png; sourceTree = "<group>"; };
+		3A504FEB918D4A5588DE519C /* amzznkWrriorsppeechTabVault.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTabVault.png; path = ../assets/images/amzznkWrriorsppeechTabVault.png; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AmazonkaWarriorSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonkaWarriorSpeech.debug.xcconfig"; path = "Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech.debug.xcconfig"; sourceTree = "<group>"; };
-		410B5E436FD74FE5B1752B03 /* Cinzel-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Medium.ttf"; path = "../src/assets/f/Cinzel-Medium.ttf"; sourceTree = "<group>"; };
+		410B5E436FD74FE5B1752B03 /* Cinzel-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Medium.ttf"; path = "../assets/fonts/Cinzel-Medium.ttf"; sourceTree = "<group>"; };
+		4872E0C564324461B612AACA /* amzznkWrriorsppeechTabChronicle.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTabChronicle.png; path = ../assets/images/amzznkWrriorsppeechTabChronicle.png; sourceTree = "<group>"; };
+		51F817CEB8A24C88961E470D /* amzznkWrriorsppeechTabOracle.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTabOracle.png; path = ../assets/images/amzznkWrriorsppeechTabOracle.png; sourceTree = "<group>"; };
+		54E1E23CC03E4F7C91031632 /* amzznkWrriorsppeechWalkSlide3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechWalkSlide3.png; path = ../assets/images/amzznkWrriorsppeechWalkSlide3.png; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AmazonkaWarriorSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonkaWarriorSpeech.release.xcconfig"; path = "Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AmazonkaWarriorSpeech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmazonkaWarriorSpeech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D4C811B4FA4862900B21AB /* amzznkWrriorsppeechWalkSlide5.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechWalkSlide5.png; path = ../assets/images/amzznkWrriorsppeechWalkSlide5.png; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AmazonkaWarriorSpeech/AppDelegate.swift; sourceTree = "<group>"; };
-		7617880287F0401086D9D42E /* Cinzel-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-SemiBold.ttf"; path = "../src/assets/f/Cinzel-SemiBold.ttf"; sourceTree = "<group>"; };
-		78000792DBA141979E25D073 /* Cinzel-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Black.ttf"; path = "../src/assets/f/Cinzel-Black.ttf"; sourceTree = "<group>"; };
+		7617880287F0401086D9D42E /* Cinzel-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-SemiBold.ttf"; path = "../assets/fonts/Cinzel-SemiBold.ttf"; sourceTree = "<group>"; };
+		78000792DBA141979E25D073 /* Cinzel-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Black.ttf"; path = "../assets/fonts/Cinzel-Black.ttf"; sourceTree = "<group>"; };
+		7C37CF3769EE43EABE11706A /* amzznkWrriorsppeechIconShare.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechIconShare.png; path = ../assets/images/amzznkWrriorsppeechIconShare.png; sourceTree = "<group>"; };
+		7C9910C8DB424780A5B45AED /* amzznkWrriorsppeechWalkSlide1.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechWalkSlide1.png; path = ../assets/images/amzznkWrriorsppeechWalkSlide1.png; sourceTree = "<group>"; };
+		7D8F109573DC47078713381E /* amzznkWrriorsppeechReadDone.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechReadDone.png; path = ../assets/images/amzznkWrriorsppeechReadDone.png; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AmazonkaWarriorSpeech/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B12C01F6E0B14DBC86CEA858 /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Regular.ttf"; path = "../src/assets/f/Cinzel-Regular.ttf"; sourceTree = "<group>"; };
-		B2B9726E76F946E69AB87C06 /* Cinzel-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Bold.ttf"; path = "../src/assets/f/Cinzel-Bold.ttf"; sourceTree = "<group>"; };
-		C15D1EE3510C43C7BCAB993E /* Cinzel-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-ExtraBold.ttf"; path = "../src/assets/f/Cinzel-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9093C7A399A943A785FD0A00 /* amzznkWrriorsppeechReadResume.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechReadResume.png; path = ../assets/images/amzznkWrriorsppeechReadResume.png; sourceTree = "<group>"; };
+		97CDCBBEAA544B738992795A /* amzznkWrriorsppeechOutcomeSuccess.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechOutcomeSuccess.png; path = ../assets/images/amzznkWrriorsppeechOutcomeSuccess.png; sourceTree = "<group>"; };
+		9F0917C82BAC470F922DAF33 /* amzznkWrriorsppeechWalkSlide2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechWalkSlide2.png; path = ../assets/images/amzznkWrriorsppeechWalkSlide2.png; sourceTree = "<group>"; };
+		A2778AC3F2C5417BA872300A /* amzznkWrriorsppeechChevronRight.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechChevronRight.png; path = ../assets/images/amzznkWrriorsppeechChevronRight.png; sourceTree = "<group>"; };
+		AA745EB6B8D549D4B07D08D2 /* amzznkWrriorsppeechTabFlow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTabFlow.png; path = ../assets/images/amzznkWrriorsppeechTabFlow.png; sourceTree = "<group>"; };
+		AFD162B4F63B4C2BA7AA564D /* amzznkWrriorsppeechStudioAdd.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechStudioAdd.png; path = ../assets/images/amzznkWrriorsppeechStudioAdd.png; sourceTree = "<group>"; };
+		B12C01F6E0B14DBC86CEA858 /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Regular.ttf"; path = "../assets/fonts/Cinzel-Regular.ttf"; sourceTree = "<group>"; };
+		B2B9726E76F946E69AB87C06 /* Cinzel-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Bold.ttf"; path = "../assets/fonts/Cinzel-Bold.ttf"; sourceTree = "<group>"; };
+		BE7EB1636B644A1CA3FDE965 /* amzznkWrriorsppeechReadPause.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechReadPause.png; path = ../assets/images/amzznkWrriorsppeechReadPause.png; sourceTree = "<group>"; };
+		BEB4C65A2FAF4B60A2BF161B /* amzznkWrriorsppeechStudioDelete.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechStudioDelete.png; path = ../assets/images/amzznkWrriorsppeechStudioDelete.png; sourceTree = "<group>"; };
+		C15D1EE3510C43C7BCAB993E /* Cinzel-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-ExtraBold.ttf"; path = "../assets/fonts/Cinzel-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C445A61AD4524746A7856522 /* amzznkWrriorsppeechTabStudio.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTabStudio.png; path = ../assets/images/amzznkWrriorsppeechTabStudio.png; sourceTree = "<group>"; };
+		C59E942EF3654B44BA927326 /* amzznkWrriorsppeechTipPick.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechTipPick.png; path = ../assets/images/amzznkWrriorsppeechTipPick.png; sourceTree = "<group>"; };
+		D210689089F845B890E9BDBC /* amzznkWrriorsppeechOracleTimer.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechOracleTimer.png; path = ../assets/images/amzznkWrriorsppeechOracleTimer.png; sourceTree = "<group>"; };
+		EA2B02E6D96746308F95B8ED /* amzznkWrriorsppeechReadRestart.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechReadRestart.png; path = ../assets/images/amzznkWrriorsppeechReadRestart.png; sourceTree = "<group>"; };
+		EC0FED810C07466881E1D08B /* amzznkWrriorsppeechSplashLogo.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amzznkWrriorsppeechSplashLogo.png; path = ../assets/images/amzznkWrriorsppeechSplashLogo.png; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -72,6 +132,36 @@
 				410B5E436FD74FE5B1752B03 /* Cinzel-Medium.ttf */,
 				B12C01F6E0B14DBC86CEA858 /* Cinzel-Regular.ttf */,
 				C15D1EE3510C43C7BCAB993E /* Cinzel-ExtraBold.ttf */,
+				4872E0C564324461B612AACA /* amzznkWrriorsppeechTabChronicle.png */,
+				51F817CEB8A24C88961E470D /* amzznkWrriorsppeechTabOracle.png */,
+				2B03894B2C204A9CB3D2ED15 /* amzznkWrriorsppeechTabNotes.png */,
+				037D5FB1E26E4FC2AE0513BE /* amzznkWrriorsppeechSceneBackground.png */,
+				7C37CF3769EE43EABE11706A /* amzznkWrriorsppeechIconShare.png */,
+				7D8F109573DC47078713381E /* amzznkWrriorsppeechReadDone.png */,
+				C445A61AD4524746A7856522 /* amzznkWrriorsppeechTabStudio.png */,
+				3A504FEB918D4A5588DE519C /* amzznkWrriorsppeechTabVault.png */,
+				C59E942EF3654B44BA927326 /* amzznkWrriorsppeechTipPick.png */,
+				0AFBF8BEAC414E17A2D3336B /* amzznkWrriorsppeechWalkSlide4.png */,
+				68D4C811B4FA4862900B21AB /* amzznkWrriorsppeechWalkSlide5.png */,
+				7C9910C8DB424780A5B45AED /* amzznkWrriorsppeechWalkSlide1.png */,
+				38A292606E1E4A5583167FA1 /* amzznkWrriorsppeechCrestMark.png */,
+				9F0917C82BAC470F922DAF33 /* amzznkWrriorsppeechWalkSlide2.png */,
+				A2778AC3F2C5417BA872300A /* amzznkWrriorsppeechChevronRight.png */,
+				54E1E23CC03E4F7C91031632 /* amzznkWrriorsppeechWalkSlide3.png */,
+				2EDC8872878F442D8B6CA20B /* amzznkWrriorsppeechIconFavoriteOff.png */,
+				EC0FED810C07466881E1D08B /* amzznkWrriorsppeechSplashLogo.png */,
+				97CDCBBEAA544B738992795A /* amzznkWrriorsppeechOutcomeSuccess.png */,
+				BE7EB1636B644A1CA3FDE965 /* amzznkWrriorsppeechReadPause.png */,
+				D210689089F845B890E9BDBC /* amzznkWrriorsppeechOracleTimer.png */,
+				EA2B02E6D96746308F95B8ED /* amzznkWrriorsppeechReadRestart.png */,
+				AA745EB6B8D549D4B07D08D2 /* amzznkWrriorsppeechTabFlow.png */,
+				AFD162B4F63B4C2BA7AA564D /* amzznkWrriorsppeechStudioAdd.png */,
+				BEB4C65A2FAF4B60A2BF161B /* amzznkWrriorsppeechStudioDelete.png */,
+				08C48F4728D94B089E5F7C15 /* amzznkWrriorsppeechStudioEdit.png */,
+				1E10D657140C45D0964845B4 /* amzznkWrriorsppeechIconBack.png */,
+				9093C7A399A943A785FD0A00 /* amzznkWrriorsppeechReadResume.png */,
+				0D80715F09334B82A6796D37 /* amzznkWrriorsppeechVaultUnlock.png */,
+				1D67FAC1D201483D827A1071 /* amzznkWrriorsppeechIconFavoriteOn.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -193,6 +283,36 @@
 				28FB60918F9D4786A530522E /* Cinzel-Medium.ttf in Resources */,
 				1D28A1BCE9064C13961F62D3 /* Cinzel-Regular.ttf in Resources */,
 				8628D0FD18D64242BC49D6D1 /* Cinzel-ExtraBold.ttf in Resources */,
+				6E8D5F5B4CF142F99905AB08 /* amzznkWrriorsppeechTabChronicle.png in Resources */,
+				0A74DFCF40BD469AA50282F1 /* amzznkWrriorsppeechTabOracle.png in Resources */,
+				89C835CE51C441D8A57BBE65 /* amzznkWrriorsppeechTabNotes.png in Resources */,
+				488A7E2A9EBD47A981AB951E /* amzznkWrriorsppeechSceneBackground.png in Resources */,
+				0117C62212524793A058AE0D /* amzznkWrriorsppeechIconShare.png in Resources */,
+				247907AA21A8405CA65E338C /* amzznkWrriorsppeechReadDone.png in Resources */,
+				65473D85F9F842829F4906CC /* amzznkWrriorsppeechTabStudio.png in Resources */,
+				ADFC74A336F9413C87800328 /* amzznkWrriorsppeechTabVault.png in Resources */,
+				C759EF4E20534EAFA6530A53 /* amzznkWrriorsppeechTipPick.png in Resources */,
+				3CBF3EE8114544EA9921E75B /* amzznkWrriorsppeechWalkSlide4.png in Resources */,
+				98650E647EC0444C82DC0A86 /* amzznkWrriorsppeechWalkSlide5.png in Resources */,
+				5F7F832F70804884B14D56D5 /* amzznkWrriorsppeechWalkSlide1.png in Resources */,
+				A31D174CD7734E2EA6E4DFE2 /* amzznkWrriorsppeechCrestMark.png in Resources */,
+				89A6DC6BA5BB4919A91C672C /* amzznkWrriorsppeechWalkSlide2.png in Resources */,
+				22257ADD3E4948D7BD8F20D1 /* amzznkWrriorsppeechChevronRight.png in Resources */,
+				4812A336C71645159C7416FF /* amzznkWrriorsppeechWalkSlide3.png in Resources */,
+				8E8BE7B44FB047B6BADCF9A2 /* amzznkWrriorsppeechIconFavoriteOff.png in Resources */,
+				B1D4F0983A9647AC988C3924 /* amzznkWrriorsppeechSplashLogo.png in Resources */,
+				46EC87CC1D7243B18119835D /* amzznkWrriorsppeechOutcomeSuccess.png in Resources */,
+				14F3E0E497274F53B62C43F9 /* amzznkWrriorsppeechReadPause.png in Resources */,
+				31138B1609D246FE9F5DEF4D /* amzznkWrriorsppeechOracleTimer.png in Resources */,
+				DBEBB21295714F24A3B6B83F /* amzznkWrriorsppeechReadRestart.png in Resources */,
+				D5ECDBD9B3D04C50B513B634 /* amzznkWrriorsppeechTabFlow.png in Resources */,
+				E0773BD06AEF4F11B0F569C1 /* amzznkWrriorsppeechStudioAdd.png in Resources */,
+				8FDC10147F9F4010B3F336F7 /* amzznkWrriorsppeechStudioDelete.png in Resources */,
+				2702A222EE3C453BB8BB78B4 /* amzznkWrriorsppeechStudioEdit.png in Resources */,
+				52DD75CFC1A24A1AB7AAE8E2 /* amzznkWrriorsppeechIconBack.png in Resources */,
+				15555F0DEAAC4FB98DAB2F2A /* amzznkWrriorsppeechReadResume.png in Resources */,
+				4B6EC881313240679F86B35E /* amzznkWrriorsppeechVaultUnlock.png in Resources */,
+				980532BE346A44CBB928E2EC /* amzznkWrriorsppeechIconFavoriteOn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,13 +343,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -266,13 +382,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AmazonkaWarriorSpeech/Pods-AmazonkaWarriorSpeech-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +538,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -495,7 +610,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

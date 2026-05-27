@@ -24,6 +24,126 @@
     {
       "path": "assets/fonts/Cinzel-SemiBold.ttf",
       "sha1": "4b4d4822a26728e680a5f0ea9a8957ca2d5c84d2"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechChevronRight.png",
+      "sha1": "3798c0041a9d1609ae89bcec36779bdebd05d172"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechCrestMark.png",
+      "sha1": "c212e969bc8a516718a8db05873688c31fc1ab22"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechIconBack.png",
+      "sha1": "85a54a1c41c0dc0bd54346a443bab139408ea4e3"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechIconFavoriteOff.png",
+      "sha1": "65fe78fdc659cf2ccbd7bafb8c229fd1c9f12f9a"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechIconFavoriteOn.png",
+      "sha1": "fe6fab0e21a6eef5f2e09dee64654903637334f2"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechIconShare.png",
+      "sha1": "5e5d702565eaa07782acb4b4e85b4019bfb637df"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechOracleTimer.png",
+      "sha1": "4649f5777d72dc47769ffcb346a4076f3e9834e3"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechOutcomeSuccess.png",
+      "sha1": "d554a536a70c07c0c896fbb5f818dc1a1fa2726e"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechReadDone.png",
+      "sha1": "81e42676d5e11c1a6f893a5a500109f86188a0aa"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechReadPause.png",
+      "sha1": "c5f991243c2c4cb3eb5d248b78ba90512ed247ab"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechReadRestart.png",
+      "sha1": "82abd67d83ec1decd911ac97abe502b378fc5f9e"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechReadResume.png",
+      "sha1": "ff460cd3cfc054475b4c1e140cb53baf5502a2d2"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechSceneBackground.png",
+      "sha1": "200923194f402498a494927d1769ad4dfb090a79"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechSplashLogo.png",
+      "sha1": "c9be35e28b2a5853389531c97cbed0d498c65398"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechStudioAdd.png",
+      "sha1": "188d7ffd21a477efa68e66817211881e7146f181"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechStudioDelete.png",
+      "sha1": "0f43e652b0e7aef19645fdcef2537ee0c4a1cced"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechStudioEdit.png",
+      "sha1": "1f898fe13b41e6362ab5da11bf4396b31d547323"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTabChronicle.png",
+      "sha1": "ffaf5bbb17c34d6091bf2112da16890716ce8105"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTabFlow.png",
+      "sha1": "f6143799d173c29c504591eb90634bae2633e5ef"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTabNotes.png",
+      "sha1": "1870bbe26777652b460c83a4750f84da42f738b4"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTabOracle.png",
+      "sha1": "4938d9a1fccd7f90ef98c2b087e6f668353441a9"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTabStudio.png",
+      "sha1": "e32e766effb1de3f9ffa6a41cf0c18f2a37c2afa"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTabVault.png",
+      "sha1": "9926da23dfec99d49cadc273f160a5bb033d8735"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechTipPick.png",
+      "sha1": "18b95633844c5bb3e01a0376b83554ebbfc92cd3"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechVaultUnlock.png",
+      "sha1": "c942fa8844f9c344ab1880975fc4b28c19d3875d"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechWalkSlide1.png",
+      "sha1": "675271e3a9997d6f01f96419c3fc5a42b56eef91"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechWalkSlide2.png",
+      "sha1": "72a78bee42fcead836720dd24e478a0866b428ef"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechWalkSlide3.png",
+      "sha1": "73660c8728c30a1d6082028d6b6895b967b7579b"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechWalkSlide4.png",
+      "sha1": "f462823e5740708c588a88c96c1a502373c42047"
+    },
+    {
+      "path": "assets/images/amzznkWrriorsppeechWalkSlide5.png",
+      "sha1": "24dfa94d255d7922ad1d7f31caa72f596d05cf32"
     }
   ]
 }
