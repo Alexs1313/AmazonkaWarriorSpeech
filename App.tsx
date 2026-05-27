@@ -1,12 +1,13 @@
-import {NavigationContainer} from '@react-navigation/native';
-import VoiceFlowNavigator from './src/navigation/VoiceFlowStack';
+import React from 'react';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import {AmzznkWrriorsppeechMainRoutesStack} from './AmzznkWrriorsppeech/amzznkWrriorsppeechroutts/AmzznkWrriorsppeechMainRoutesStack';
 
-const App = () => {
+function App(): React.JSX.Element {
   return (
-    <NavigationContainer>
-      <VoiceFlowNavigator />
-    </NavigationContainer>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <AmzznkWrriorsppeechMainRoutesStack />
+    </GestureHandlerRootView>
   );
-};
+}
 
 export default App;
