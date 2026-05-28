@@ -1,4 +1,4 @@
-package com.amazonkawarriorspeech
+package com.amazonkawarriorvoice
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

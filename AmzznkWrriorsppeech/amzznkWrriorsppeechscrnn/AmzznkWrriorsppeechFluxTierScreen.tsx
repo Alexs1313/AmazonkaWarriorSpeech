@@ -7,9 +7,7 @@ import type {
   AmzznkWrriorsppeechFluxTierRoute,
   AmzznkWrriorsppeechFluxNavigation,
 } from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechfluxTypes';
-import {
-  amzznkWrriorsppeechVaultUnlockedFluxPassagesForRealm,
-} from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechvaultCatalog';
+import {amzznkWrriorsppeechVaultUnlockedFluxPassagesForRealm} from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechvaultCatalog';
 import {amzznkWrriorsppeechVaultLoadUnlockedIds} from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechvaultStorage';
 import {
   amzznkWrriorsppeechFluxGetCategory,
@@ -23,7 +21,7 @@ import {AmzznkWrriorsppeechSceneShell} from '../amzznkWrriorsppeechcpnnts/Amzznk
 type AmzznkWrriorsppeechFluxTierScreenProps = {
   amzznkWrriorsppeechFluxNavigation: AmzznkWrriorsppeechFluxNavigation;
   amzznkWrriorsppeechFluxRoute: AmzznkWrriorsppeechFluxTierRoute;
-}
+};
 
 const amzznkWrriorsppeechFluxBtnGradient = [
   '#FF9900',
@@ -51,13 +49,13 @@ export function AmzznkWrriorsppeechFluxTierScreen({
   const amzznkWrriorsppeechFluxCategoryId =
     amzznkWrriorsppeechFluxRoute.params.amzznkWrriorsppeechFluxCategoryId;
 
-  const amzznkWrriorsppeechFluxCategory =
-    amzznkWrriorsppeechFluxGetCategory(amzznkWrriorsppeechFluxCategoryId);
+  const amzznkWrriorsppeechFluxCategory = amzznkWrriorsppeechFluxGetCategory(
+    amzznkWrriorsppeechFluxCategoryId,
+  );
 
-  const [
-    fluxStoreTexts,
-    setFluxStoreTexts,
-  ] = useState<AmzznkWrriorsppeechFluxPassage[]>([]);
+  const [fluxStoreTexts, setFluxStoreTexts] = useState<
+    AmzznkWrriorsppeechFluxPassage[]
+  >([]);
 
   useFocusEffect(
     useCallback(() => {
@@ -79,14 +77,11 @@ export function AmzznkWrriorsppeechFluxTierScreen({
       fluxStoreTexts,
     );
 
-  const [
-    fluxSelectedTextId,
-    setFluxSelectedTextId,
-  ] = useState<string | null>(null);
-  const [
-    fluxScrollSpeed,
-    setFluxCadence,
-  ] = useState<AmzznkWrriorsppeechFluxCadence>('medium');
+  const [fluxSelectedTextId, setFluxSelectedTextId] = useState<string | null>(
+    null,
+  );
+  const [fluxScrollSpeed, setFluxCadence] =
+    useState<AmzznkWrriorsppeechFluxCadence>('medium');
   const [fluxPassageSize, setFluxPassageScale] =
     useState<AmzznkWrriorsppeechFluxPassageScale>('medium');
 
@@ -94,8 +89,7 @@ export function AmzznkWrriorsppeechFluxTierScreen({
     return null;
   }
 
-  const amzznkWrriorsppeechFluxCanStart =
-    fluxSelectedTextId !== null;
+  const amzznkWrriorsppeechFluxCanStart = fluxSelectedTextId !== null;
 
   return (
     <AmzznkWrriorsppeechSceneShell>
@@ -108,7 +102,9 @@ export function AmzznkWrriorsppeechFluxTierScreen({
           <Pressable
             onPress={() => amzznkWrriorsppeechFluxNavigation.goBack()}
             style={styles.amzznkWrriorsppeechFluxDiffBackBtn}>
-            <Image source={require('../../assets/images/amzznkWrriorsppeechIconBack.png')} />
+            <Image
+              source={require('../../assets/images/amzznkWrriorsppeechIconBack.png')}
+            />
           </Pressable>
           <View>
             <Text style={styles.amzznkWrriorsppeechFluxDiffTitle}>
@@ -132,7 +128,9 @@ export function AmzznkWrriorsppeechFluxTierScreen({
               amzznkWrriorsppeechFluxPassage.amzznkWrriorsppeechFluxPassageId;
             return (
               <Pressable
-                key={amzznkWrriorsppeechFluxPassage.amzznkWrriorsppeechFluxPassageId}
+                key={
+                  amzznkWrriorsppeechFluxPassage.amzznkWrriorsppeechFluxPassageId
+                }
                 onPress={() =>
                   setFluxSelectedTextId(
                     amzznkWrriorsppeechFluxPassage.amzznkWrriorsppeechFluxPassageId,
@@ -144,7 +142,9 @@ export function AmzznkWrriorsppeechFluxTierScreen({
                     styles.amzznkWrriorsppeechFluxDiffTextRowActive,
                 ]}>
                 <Text style={styles.amzznkWrriorsppeechFluxDiffTextRowLabel}>
-                  {amzznkWrriorsppeechFluxPassage.amzznkWrriorsppeechFluxPassageTitle}
+                  {
+                    amzznkWrriorsppeechFluxPassage.amzznkWrriorsppeechFluxPassageTitle
+                  }
                 </Text>
               </Pressable>
             );
@@ -157,9 +157,21 @@ export function AmzznkWrriorsppeechFluxTierScreen({
         <View style={styles.amzznkWrriorsppeechFluxDiffOptionsRow}>
           {(
             [
-              {amzznkWrriorsppeechId: 'slow' as const, amzznkWrriorsppeechEmoji: '🐢', amzznkWrriorsppeechLabel: 'Slow'},
-              {amzznkWrriorsppeechId: 'medium' as const, amzznkWrriorsppeechEmoji: '🦅', amzznkWrriorsppeechLabel: 'Medium'},
-              {amzznkWrriorsppeechId: 'fast' as const, amzznkWrriorsppeechEmoji: '⚡', amzznkWrriorsppeechLabel: 'Fast'},
+              {
+                amzznkWrriorsppeechId: 'slow' as const,
+                amzznkWrriorsppeechEmoji: '🐢',
+                amzznkWrriorsppeechLabel: 'Slow',
+              },
+              {
+                amzznkWrriorsppeechId: 'medium' as const,
+                amzznkWrriorsppeechEmoji: '🦅',
+                amzznkWrriorsppeechLabel: 'Medium',
+              },
+              {
+                amzznkWrriorsppeechId: 'fast' as const,
+                amzznkWrriorsppeechEmoji: '⚡',
+                amzznkWrriorsppeechLabel: 'Fast',
+              },
             ] as const
           ).map(amzznkWrriorsppeechFluxOption => (
             <Pressable
@@ -197,9 +209,21 @@ export function AmzznkWrriorsppeechFluxTierScreen({
         <View style={styles.amzznkWrriorsppeechFluxDiffOptionsRow}>
           {(
             [
-              {amzznkWrriorsppeechId: 'small' as const, amzznkWrriorsppeechSize: 12, amzznkWrriorsppeechLabel: 'Small'},
-              {amzznkWrriorsppeechId: 'medium' as const, amzznkWrriorsppeechSize: 16, amzznkWrriorsppeechLabel: 'Medium'},
-              {amzznkWrriorsppeechId: 'large' as const, amzznkWrriorsppeechSize: 20, amzznkWrriorsppeechLabel: 'Large'},
+              {
+                amzznkWrriorsppeechId: 'small' as const,
+                amzznkWrriorsppeechSize: 12,
+                amzznkWrriorsppeechLabel: 'Small',
+              },
+              {
+                amzznkWrriorsppeechId: 'medium' as const,
+                amzznkWrriorsppeechSize: 16,
+                amzznkWrriorsppeechLabel: 'Medium',
+              },
+              {
+                amzznkWrriorsppeechId: 'large' as const,
+                amzznkWrriorsppeechSize: 20,
+                amzznkWrriorsppeechLabel: 'Large',
+              },
             ] as const
           ).map(amzznkWrriorsppeechFluxOption => (
             <Pressable
@@ -219,7 +243,10 @@ export function AmzznkWrriorsppeechFluxTierScreen({
               <Text
                 style={[
                   styles.amzznkWrriorsppeechFluxDiffSizeLetter,
-                  {fontSize: amzznkWrriorsppeechFluxOption.amzznkWrriorsppeechSize},
+                  {
+                    fontSize:
+                      amzznkWrriorsppeechFluxOption.amzznkWrriorsppeechSize,
+                  },
                   fluxPassageSize ===
                     amzznkWrriorsppeechFluxOption.amzznkWrriorsppeechId &&
                     styles.amzznkWrriorsppeechFluxDiffOptionLabelActive,
@@ -251,18 +278,14 @@ export function AmzznkWrriorsppeechFluxTierScreen({
             if (!fluxSelectedTextId) {
               return;
             }
-            amzznkWrriorsppeechFluxNavigation.navigate(
-              'FluxRead',
-              {
-                amzznkWrriorsppeechFluxCategoryId:
-                  amzznkWrriorsppeechFluxRoute.params
-                    .amzznkWrriorsppeechFluxCategoryId,
-                amzznkWrriorsppeechFluxPassageId:
-                  fluxSelectedTextId,
-                fluxScrollSpeed,
-                fluxPassageSize,
-              },
-            );
+            amzznkWrriorsppeechFluxNavigation.navigate('FluxRead', {
+              amzznkWrriorsppeechFluxCategoryId:
+                amzznkWrriorsppeechFluxRoute.params
+                  .amzznkWrriorsppeechFluxCategoryId,
+              amzznkWrriorsppeechFluxPassageId: fluxSelectedTextId,
+              fluxScrollSpeed,
+              fluxPassageSize,
+            });
           }}
           style={({pressed}) => [
             styles.amzznkWrriorsppeechFluxDiffStartWrap,
@@ -290,8 +313,6 @@ export function AmzznkWrriorsppeechFluxTierScreen({
     </AmzznkWrriorsppeechSceneShell>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   amzznkWrriorsppeechFluxDiffRoot: {
@@ -397,7 +418,6 @@ const styles = StyleSheet.create({
   amzznkWrriorsppeechFluxDiffFooter: {
     paddingHorizontal: 16,
     paddingTop: 8,
-    backgroundColor: '#231F20',
   },
   amzznkWrriorsppeechFluxDiffStartWrap: {
     width: '100%',

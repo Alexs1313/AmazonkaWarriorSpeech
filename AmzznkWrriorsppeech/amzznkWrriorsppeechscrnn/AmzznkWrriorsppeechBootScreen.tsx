@@ -8,150 +8,61 @@ const amzznkWrriorsppeechWelcomeLoaderHtml = `<!DOCTYPE html>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-          body {
+          html, body {
             margin: 0;
             padding: 0;
+            width: 100%;
+            height: 100%;
             background: transparent;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100vw;
-            height: 100vh;
             overflow: hidden;
-            font-family: Arial, sans-serif;
+          }
+
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
 
           .loader {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            gap: 5px;
-          }
-
-          .loading-text {
-            color: white;
-            font-size: 14pt;
-            font-weight: 600;
-            margin-left: 10px;
-          }
-
-          .dot {
-            margin-left: 3px;
-            animation: blink 1.5s infinite;
-          }
-
-          .dot:nth-child(2) {
-            animation-delay: 0.3s;
-          }
-
-          .dot:nth-child(3) {
-            animation-delay: 0.6s;
-          }
-
-          .loading-bar-background {
-            --height: 30px;
-            display: flex;
-            align-items: center;
-            box-sizing: border-box;
-            padding: 5px;
-            width: 200px;
-            height: var(--height);
-            background-color: #212121;
-            box-shadow: #0c0c0c -2px 2px 4px 0px inset;
-            border-radius: calc(var(--height) / 2);
-          }
-
-          .loading-bar {
+            display: block;
+            --height-of-loader: 4px;
+            --loader-color: #0071e2;
+            width: 130px;
+            height: var(--height-of-loader);
+            border-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.2);
             position: relative;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            --height: 20px;
-            width: 0%;
-            height: var(--height);
             overflow: hidden;
-            background: linear-gradient(
-              0deg,
-              rgba(222, 74, 15, 1) 0%,
-              rgba(249, 199, 79, 1) 100%
-            );
-            border-radius: calc(var(--height) / 2);
-            animation: loading 4s ease-out infinite;
           }
 
-          .white-bars-container {
+          .loader::before {
+            content: "";
             position: absolute;
-            display: flex;
-            align-items: center;
-            gap: 18px;
+            background: var(--loader-color);
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            border-radius: 30px;
+            animation: moving 1s ease-in-out infinite;
           }
 
-          .white-bar {
-            background: linear-gradient(
-              -45deg,
-              rgba(255, 255, 255, 1) 0%,
-              rgba(255, 255, 255, 0) 70%
-            );
-            width: 10px;
-            height: 45px;
-            opacity: 0.3;
-            transform: rotate(45deg);
-          }
-
-          @keyframes loading {
-            0% {
-              width: 0;
-            }
-
-            80% {
-              width: 100%;
-            }
-
-            100% {
-              width: 100%;
-            }
-          }
-
-          @keyframes blink {
-            0%,
-            100% {
-              opacity: 0;
-            }
-
+          @keyframes moving {
             50% {
-              opacity: 1;
+              width: 100%;
+            }
+
+            100% {
+              width: 0;
+              right: 0;
+              left: unset;
             }
           }
         </style>
       </head>
 
       <body>
-        <div class="loader">
-          <div class="loading-text">
-            Loading
-            <span class="dot">.</span>
-            <span class="dot">.</span>
-            <span class="dot">.</span>
-          </div>
-
-          <div class="loading-bar-background">
-            <div class="loading-bar">
-              <div class="white-bars-container">
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-                <div class="white-bar"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="loader"></div>
       </body>
     </html>`;
 
@@ -171,9 +82,7 @@ export function AmzznkWrriorsppeechBootScreen() {
   return (
     <View style={styles.amzznkWrriorsppeechBackgroundImg}>
       <ScrollView
-        contentContainerStyle={
-          styles.amzznkWrriorsppeechScrollWrapp
-        }
+        contentContainerStyle={styles.amzznkWrriorsppeechScrollWrapp}
         showsVerticalScrollIndicator={false}>
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
           <Image
@@ -181,8 +90,7 @@ export function AmzznkWrriorsppeechBootScreen() {
             style={{width: 200, height: 200, borderRadius: 50}}
           />
         </View>
-        <View
-          style={styles.amzznkWrriorsppeechBottomLoaderWrap}>
+        <View style={styles.amzznkWrriorsppeechBottomLoaderWrap}>
           <WebView
             source={{html: amzznkWrriorsppeechWelcomeLoaderHtml}}
             scrollEnabled={false}

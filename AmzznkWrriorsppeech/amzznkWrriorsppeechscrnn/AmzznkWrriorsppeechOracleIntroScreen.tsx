@@ -28,7 +28,7 @@ const amzznkWrriorsppeechOracleBtnGradient = [
   '#FF6B35',
 ];
 
-const amzznkWrriorsppeechOracleOracleCardBorderGradient = [
+export const amzznkWrriorsppeechOracleOracleCardBorderGradient = [
   '#391B06',
   '#381C09',
   '#361C0C',
@@ -62,7 +62,7 @@ const amzznkWrriorsppeechOracleOracleCardBorderLocations = [
 
 type AmzznkWrriorsppeechOracleIntroScreenProps = {
   amzznkWrriorsppeechOracleNavigation: AmzznkWrriorsppeechOracleNavigation;
-}
+};
 
 const amzznkWrriorsppeechOracleRules = [
   {
@@ -121,7 +121,9 @@ export function AmzznkWrriorsppeechOracleIntroScreen({
             style={styles.amzznkWrriorsppeechOracleOracleCardBorder}>
             <View style={styles.amzznkWrriorsppeechOracleOracleCard}>
               <View style={styles.amzznkWrriorsppeechOracleOracleIconWrap}>
-                <Text style={styles.amzznkWrriorsppeechOracleOracleIcon}>🏺</Text>
+                <Text style={styles.amzznkWrriorsppeechOracleOracleIcon}>
+                  🏺
+                </Text>
               </View>
               <Text style={styles.amzznkWrriorsppeechOracleOracleLabel}>
                 The Amazonka Oracle
@@ -159,9 +161,7 @@ export function AmzznkWrriorsppeechOracleIntroScreen({
 
         <Pressable
           onPress={() =>
-            amzznkWrriorsppeechOracleNavigation.navigate(
-              'OracleTrial',
-            )
+            amzznkWrriorsppeechOracleNavigation.navigate('OracleTrial')
           }
           style={({pressed}) => [
             styles.amzznkWrriorsppeechOracleEnterWrap,
@@ -182,8 +182,6 @@ export function AmzznkWrriorsppeechOracleIntroScreen({
     </AmzznkWrriorsppeechSceneShell>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   amzznkWrriorsppeechOracleIntroContent: {

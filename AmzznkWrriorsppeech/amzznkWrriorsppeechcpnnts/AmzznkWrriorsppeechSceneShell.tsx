@@ -1,5 +1,6 @@
 import React from 'react';
 import {ImageBackground, ScrollView, StyleSheet, View} from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 
 export function AmzznkWrriorsppeechSceneShell({
   children,
@@ -10,16 +11,18 @@ export function AmzznkWrriorsppeechSceneShell({
   amzznkWrriorsppeechBounce?: boolean;
 }) {
   return (
-    <ImageBackground
-      source={require('../../assets/images/amzznkWrriorsppeechSceneBackground.png')}
+    <LinearGradient
+      colors={['rgb(67, 40, 24)', 'rgb(38, 20, 8)']}
       style={styles.amzznkWrriorsppeechSceneLayoutBackground}>
       <ScrollView
         bounces={amzznkWrriorsppeechBounce}
-        contentContainerStyle={styles.amzznkWrriorsppeechSceneLayoutScrollContent}
+        contentContainerStyle={
+          styles.amzznkWrriorsppeechSceneLayoutScrollContent
+        }
         showsVerticalScrollIndicator={false}>
         {children}
       </ScrollView>
-    </ImageBackground>
+    </LinearGradient>
   );
 }
 
@@ -34,5 +37,3 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
-
-

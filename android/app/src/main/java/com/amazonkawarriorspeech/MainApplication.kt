@@ -1,4 +1,4 @@
-package com.amazonkawarriorspeech
+package com.amazonkawarriorvoice
 
 import android.app.Application
 import com.facebook.react.PackageList
