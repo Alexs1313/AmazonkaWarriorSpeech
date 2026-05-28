@@ -21,6 +21,7 @@ import {
   amzznkWrriorsppeechStudioLoadUserPassages,
   amzznkWrriorsppeechStudioSaveUserPassages,
 } from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechstudioStorage';
+import Orientation from 'react-native-orientation-locker';
 
 const amzznkWrriorsppeechStudioBtnGradient = [
   '#FF9900',
@@ -44,28 +45,18 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
   const amzznkWrriorsppeechStudioInsets = useSafeAreaInsets();
   const [studioCategory, setStudioRealm] =
     useState<AmzznkWrriorsppeechStudioRealmId>('warrior');
-  const [
-    studioUserTexts,
-    setStudioUserTexts,
-  ] = useState<AmzznkWrriorsppeechStudioPassage[]>([]);
-  const [
-    studioVaultPassages,
-    setStudioStoreTexts,
-  ] = useState<AmzznkWrriorsppeechStudioPassage[]>([]);
-  const [
-    studioModalVisible,
-    setStudioEditorSheetVisible,
-  ] = useState(false);
-  const [
-    studioEditingId,
-    setStudioEditingId,
-  ] = useState<string | null>(null);
+  const [studioUserTexts, setStudioUserTexts] = useState<
+    AmzznkWrriorsppeechStudioPassage[]
+  >([]);
+  const [studioVaultPassages, setStudioStoreTexts] = useState<
+    AmzznkWrriorsppeechStudioPassage[]
+  >([]);
+  const [studioModalVisible, setStudioEditorSheetVisible] = useState(false);
+  const [studioEditingId, setStudioEditingId] = useState<string | null>(null);
 
   useFocusEffect(
     useCallback(() => {
-      amzznkWrriorsppeechStudioLoadUserPassages().then(
-        setStudioUserTexts,
-      );
+      amzznkWrriorsppeechStudioLoadUserPassages().then(setStudioUserTexts);
       amzznkWrriorsppeechVaultLoadUnlockedIds().then(
         amzznkWrriorsppeechStudioUnlockedIds =>
           setStudioStoreTexts(
@@ -80,11 +71,12 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
   const amzznkWrriorsppeechStudioActiveCategory =
     amzznkWrriorsppeechStudioGetCategory(studioCategory);
 
-  const amzznkWrriorsppeechStudioListTexts = amzznkWrriorsppeechStudioMergeTexts(
-    studioUserTexts,
-    studioCategory,
-    studioVaultPassages,
-  );
+  const amzznkWrriorsppeechStudioListTexts =
+    amzznkWrriorsppeechStudioMergeTexts(
+      studioUserTexts,
+      studioCategory,
+      studioVaultPassages,
+    );
 
   const amzznkWrriorsppeechStudioEditingText = studioEditingId
     ? studioUserTexts.find(
@@ -113,11 +105,22 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
     setStudioEditingId(null);
   };
 
+  useFocusEffect(
+    useCallback(() => {
+      Orientation.lockToPortrait();
+      return () => {
+        Orientation.unlockAllOrientations();
+      };
+    }, []),
+  );
+
   const amzznkWrriorsppeechStudioPersistUserTexts = async (
     amzznkWrriorsppeechStudioNext: AmzznkWrriorsppeechStudioPassage[],
   ) => {
     setStudioUserTexts(amzznkWrriorsppeechStudioNext);
-    await amzznkWrriorsppeechStudioSaveUserPassages(amzznkWrriorsppeechStudioNext);
+    await amzznkWrriorsppeechStudioSaveUserPassages(
+      amzznkWrriorsppeechStudioNext,
+    );
   };
 
   const amzznkWrriorsppeechStudioHandleSave = (
@@ -136,15 +139,18 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
               }
             : amzznkWrriorsppeechStudioPassage,
       );
-      void amzznkWrriorsppeechStudioPersistUserTexts(amzznkWrriorsppeechStudioNext);
+      void amzznkWrriorsppeechStudioPersistUserTexts(
+        amzznkWrriorsppeechStudioNext,
+      );
     } else {
-      const amzznkWrriorsppeechStudioNewText: AmzznkWrriorsppeechStudioPassage = {
-        amzznkWrriorsppeechStudioPassageId: `user-${Date.now()}`,
-        amzznkWrriorsppeechStudioPassageTitle: studioTitle,
-        amzznkWrriorsppeechStudioPassageBody: studioBody,
-        amzznkWrriorsppeechStudioPassageCategoryId: studioCategory,
-        amzznkWrriorsppeechStudioPassageIsUser: true,
-      };
+      const amzznkWrriorsppeechStudioNewText: AmzznkWrriorsppeechStudioPassage =
+        {
+          amzznkWrriorsppeechStudioPassageId: `user-${Date.now()}`,
+          amzznkWrriorsppeechStudioPassageTitle: studioTitle,
+          amzznkWrriorsppeechStudioPassageBody: studioBody,
+          amzznkWrriorsppeechStudioPassageCategoryId: studioCategory,
+          amzznkWrriorsppeechStudioPassageIsUser: true,
+        };
       void amzznkWrriorsppeechStudioPersistUserTexts([
         ...studioUserTexts,
         amzznkWrriorsppeechStudioNewText,
@@ -165,12 +171,11 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
           text: 'Delete',
           style: 'destructive',
           onPress: () => {
-            const amzznkWrriorsppeechStudioNext =
-              studioUserTexts.filter(
-                amzznkWrriorsppeechStudioItem =>
-                  amzznkWrriorsppeechStudioItem.amzznkWrriorsppeechStudioPassageId !==
-                  amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageId,
-              );
+            const amzznkWrriorsppeechStudioNext = studioUserTexts.filter(
+              amzznkWrriorsppeechStudioItem =>
+                amzznkWrriorsppeechStudioItem.amzznkWrriorsppeechStudioPassageId !==
+                amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageId,
+            );
             void amzznkWrriorsppeechStudioPersistUserTexts(
               amzznkWrriorsppeechStudioNext,
             );
@@ -181,8 +186,7 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
   };
 
   const amzznkWrriorsppeechStudioTotalCount =
-    amzznkWrriorsppeechStudioBuiltInTexts.length +
-    studioUserTexts.length;
+    amzznkWrriorsppeechStudioBuiltInTexts.length + studioUserTexts.length;
 
   if (!amzznkWrriorsppeechStudioActiveCategory) {
     return null;
@@ -242,7 +246,9 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
               <Text style={styles.amzznkWrriorsppeechStudioHomeStatEmoji}>
                 📂
               </Text>
-              <Text style={styles.amzznkWrriorsppeechStudioHomeStatValue}>3</Text>
+              <Text style={styles.amzznkWrriorsppeechStudioHomeStatValue}>
+                3
+              </Text>
               <Text style={styles.amzznkWrriorsppeechStudioHomeStatLabel}>
                 Categories
               </Text>
@@ -306,87 +312,95 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
             )}
           </View>
 
-          {amzznkWrriorsppeechStudioListTexts.map(amzznkWrriorsppeechStudioPassage => {
-            const amzznkWrriorsppeechStudioCategoryMeta =
-              amzznkWrriorsppeechStudioGetCategory(
-                amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageCategoryId,
-              );
+          {amzznkWrriorsppeechStudioListTexts.map(
+            amzznkWrriorsppeechStudioPassage => {
+              const amzznkWrriorsppeechStudioCategoryMeta =
+                amzznkWrriorsppeechStudioGetCategory(
+                  amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageCategoryId,
+                );
 
-            return (
-              <View
-                key={amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageId}
-                style={styles.amzznkWrriorsppeechStudioPassageCard}>
+              return (
                 <View
-                  style={[
-                    styles.amzznkWrriorsppeechStudioPassageIcon,
-                    amzznkWrriorsppeechStudioCategoryMeta && {
-                      backgroundColor: 'rgba(255, 153, 0, 0.13)',
-                      borderColor: 'rgba(255, 153, 0, 0.2)',
-                    },
-                  ]}>
-                  <Text style={styles.amzznkWrriorsppeechStudioPassageEmoji}>
-                    {amzznkWrriorsppeechStudioCategoryMeta?.amzznkWrriorsppeechStudioCategoryEmoji ??
-                      '⚔️'}
-                  </Text>
-                </View>
-
-                <View style={styles.amzznkWrriorsppeechStudioPassageBody}>
-                  <View style={styles.amzznkWrriorsppeechStudioPassageTitleRow}>
-                    <Text
-                      style={styles.amzznkWrriorsppeechStudioPassageTitle}
-                      numberOfLines={2}>
-                      {amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageTitle.toUpperCase()}
+                  key={
+                    amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageId
+                  }
+                  style={styles.amzznkWrriorsppeechStudioPassageCard}>
+                  <View
+                    style={[
+                      styles.amzznkWrriorsppeechStudioPassageIcon,
+                      amzznkWrriorsppeechStudioCategoryMeta && {
+                        backgroundColor: 'rgba(255, 153, 0, 0.13)',
+                        borderColor: 'rgba(255, 153, 0, 0.2)',
+                      },
+                    ]}>
+                    <Text style={styles.amzznkWrriorsppeechStudioPassageEmoji}>
+                      {amzznkWrriorsppeechStudioCategoryMeta?.amzznkWrriorsppeechStudioCategoryEmoji ??
+                        '⚔️'}
                     </Text>
-                    {amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageIsUser && (
-                      <View style={styles.amzznkWrriorsppeechStudioMineBadge}>
-                        <Text
-                          style={styles.amzznkWrriorsppeechStudioMineBadgeText}>
-                          MINE
-                        </Text>
-                      </View>
-                    )}
                   </View>
-                  <Text
-                    style={styles.amzznkWrriorsppeechStudioPassagePreview}
-                    numberOfLines={2}>
-                    {amzznkWrriorsppeechStudioGetPreview(
-                      amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageBody,
-                    )}
-                  </Text>
-                </View>
 
-                {amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageIsUser && (
-                  <View style={styles.amzznkWrriorsppeechStudioPassageActions}>
-                    <Pressable
-                      onPress={() =>
-                        amzznkWrriorsppeechStudioOpenEdit(
-                          amzznkWrriorsppeechStudioPassage,
-                        )
-                      }
-                      style={styles.amzznkWrriorsppeechStudioActionBtn}>
-                      <Image
-                        source={require('../../assets/images/amzznkWrriorsppeechStudioEdit.png')}
-                      />
-                    </Pressable>
-                    <Pressable
-                      onPress={() =>
-                        amzznkWrriorsppeechStudioHandleDelete(
-                          amzznkWrriorsppeechStudioPassage,
-                        )
-                      }
-                      style={[
-                        styles.amzznkWrriorsppeechStudioActionBtn,
-                        styles.amzznkWrriorsppeechStudioDeleteBtn,
-                      ]}>
-                      <Image
-                        source={require('../../assets/images/amzznkWrriorsppeechStudioDelete.png')}
-                      />
-                    </Pressable>
+                  <View style={styles.amzznkWrriorsppeechStudioPassageBody}>
+                    <View
+                      style={styles.amzznkWrriorsppeechStudioPassageTitleRow}>
+                      <Text
+                        style={styles.amzznkWrriorsppeechStudioPassageTitle}
+                        numberOfLines={2}>
+                        {amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageTitle.toUpperCase()}
+                      </Text>
+                      {amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageIsUser && (
+                        <View style={styles.amzznkWrriorsppeechStudioMineBadge}>
+                          <Text
+                            style={
+                              styles.amzznkWrriorsppeechStudioMineBadgeText
+                            }>
+                            MINE
+                          </Text>
+                        </View>
+                      )}
+                    </View>
+                    <Text
+                      style={styles.amzznkWrriorsppeechStudioPassagePreview}
+                      numberOfLines={2}>
+                      {amzznkWrriorsppeechStudioGetPreview(
+                        amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageBody,
+                      )}
+                    </Text>
                   </View>
-                )}
-              </View>
-            );
-          })}
+
+                  {amzznkWrriorsppeechStudioPassage.amzznkWrriorsppeechStudioPassageIsUser && (
+                    <View
+                      style={styles.amzznkWrriorsppeechStudioPassageActions}>
+                      <Pressable
+                        onPress={() =>
+                          amzznkWrriorsppeechStudioOpenEdit(
+                            amzznkWrriorsppeechStudioPassage,
+                          )
+                        }
+                        style={styles.amzznkWrriorsppeechStudioActionBtn}>
+                        <Image
+                          source={require('../../assets/images/amzznkWrriorsppeechStudioEdit.png')}
+                        />
+                      </Pressable>
+                      <Pressable
+                        onPress={() =>
+                          amzznkWrriorsppeechStudioHandleDelete(
+                            amzznkWrriorsppeechStudioPassage,
+                          )
+                        }
+                        style={[
+                          styles.amzznkWrriorsppeechStudioActionBtn,
+                          styles.amzznkWrriorsppeechStudioDeleteBtn,
+                        ]}>
+                        <Image
+                          source={require('../../assets/images/amzznkWrriorsppeechStudioDelete.png')}
+                        />
+                      </Pressable>
+                    </View>
+                  )}
+                </View>
+              );
+            },
+          )}
 
           <Pressable
             onPress={amzznkWrriorsppeechStudioOpenAdd}
@@ -399,7 +413,9 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
               start={{x: 0, y: 0.5}}
               end={{x: 1, y: 0.5}}
               style={styles.amzznkWrriorsppeechStudioAddBtn}>
-              <Image source={require('../../assets/images/amzznkWrriorsppeechStudioAdd.png')} />
+              <Image
+                source={require('../../assets/images/amzznkWrriorsppeechStudioAdd.png')}
+              />
               <Text style={styles.amzznkWrriorsppeechStudioAddBtnText}>
                 Add New Text
               </Text>
@@ -424,8 +440,6 @@ export function AmzznkWrriorsppeechStudioHomeScreen() {
     </>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   amzznkWrriorsppeechStudioHomeContent: {

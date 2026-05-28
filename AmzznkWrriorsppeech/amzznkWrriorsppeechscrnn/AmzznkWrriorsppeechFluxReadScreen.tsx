@@ -14,9 +14,7 @@ import type {
   AmzznkWrriorsppeechFluxNavigation,
   AmzznkWrriorsppeechFluxReadRoute,
 } from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechfluxTypes';
-import {
-  amzznkWrriorsppeechVaultUnlockedFluxPassagesForRealm,
-} from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechvaultCatalog';
+import {amzznkWrriorsppeechVaultUnlockedFluxPassagesForRealm} from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechvaultCatalog';
 import {amzznkWrriorsppeechVaultLoadUnlockedIds} from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechvaultStorage';
 import {
   amzznkWrriorsppeechFluxGetText,
@@ -24,11 +22,12 @@ import {
   amzznkWrriorsppeechFluxPassageScaleStyle,
   type AmzznkWrriorsppeechFluxPassage,
 } from '../amzznkWrriorsppeechcpnnts/AmzznkWrriorsppeechfluxCatalog';
+import Orientation from 'react-native-orientation-locker';
 
 type AmzznkWrriorsppeechFluxReadScreenProps = {
   amzznkWrriorsppeechFluxNavigation: AmzznkWrriorsppeechFluxNavigation;
   amzznkWrriorsppeechFluxRoute: AmzznkWrriorsppeechFluxReadRoute;
-}
+};
 
 const amzznkWrriorsppeechFluxReadControlsH = 130;
 
@@ -70,8 +69,9 @@ export function AmzznkWrriorsppeechFluxReadScreen({
     fluxPassageSize,
   } = amzznkWrriorsppeechFluxRoute.params;
 
-  const [fluxStoreTexts, setFluxStoreTexts] =
-    useState<AmzznkWrriorsppeechFluxPassage[]>([]);
+  const [fluxStoreTexts, setFluxStoreTexts] = useState<
+    AmzznkWrriorsppeechFluxPassage[]
+  >([]);
 
   useFocusEffect(
     useCallback(() => {
@@ -93,10 +93,8 @@ export function AmzznkWrriorsppeechFluxReadScreen({
     fluxStoreTexts,
   );
 
-  const [fluxIsScrolling, setFluxIsScrolling] =
-    useState(true);
-  const [fluxViewportH, setFluxViewportH] =
-    useState(0);
+  const [fluxIsScrolling, setFluxIsScrolling] = useState(true);
+  const [fluxViewportH, setFluxViewportH] = useState(0);
 
   const amzznkWrriorsppeechFluxTypography =
     amzznkWrriorsppeechFluxPassageScaleStyle[fluxPassageSize];
@@ -111,12 +109,12 @@ export function AmzznkWrriorsppeechFluxReadScreen({
     }
 
     const amzznkWrriorsppeechFluxPxPerTick =
-      amzznkWrriorsppeechFluxCadencePx[fluxScrollSpeed] /
-      20;
+      amzznkWrriorsppeechFluxCadencePx[fluxScrollSpeed] / 20;
 
     amzznkWrriorsppeechFluxTickRef.current = setInterval(() => {
       const amzznkWrriorsppeechFluxNextY =
-        amzznkWrriorsppeechFluxScrollY.current + amzznkWrriorsppeechFluxPxPerTick;
+        amzznkWrriorsppeechFluxScrollY.current +
+        amzznkWrriorsppeechFluxPxPerTick;
       if (
         amzznkWrriorsppeechFluxNextY >= amzznkWrriorsppeechFluxMaxScroll.current
       ) {
@@ -136,6 +134,15 @@ export function AmzznkWrriorsppeechFluxReadScreen({
       }
     };
   }, [fluxIsScrolling, fluxScrollSpeed]);
+
+  useFocusEffect(
+    useCallback(() => {
+      Orientation.lockToPortrait();
+      return () => {
+        Orientation.unlockAllOrientations();
+      };
+    }, []),
+  );
 
   useEffect(() => {
     if (fluxViewportH > 0) {
@@ -201,8 +208,7 @@ export function AmzznkWrriorsppeechFluxReadScreen({
               amzznkWrriorsppeechFluxContentHeight;
             amzznkWrriorsppeechFluxMaxScroll.current = Math.max(
               0,
-              amzznkWrriorsppeechFluxContentHeight -
-                fluxViewportH,
+              amzznkWrriorsppeechFluxContentHeight - fluxViewportH,
             );
           }}
           onScroll={amzznkWrriorsppeechFluxEvent => {
@@ -227,11 +233,7 @@ export function AmzznkWrriorsppeechFluxReadScreen({
         </ScrollView>
 
         <LinearGradient
-          colors={[
-            'transparent',
-            'rgba(26, 23, 24, 0.75)',
-            '#1A1718',
-          ]}
+          colors={['transparent', 'rgba(26, 23, 24, 0.75)', '#1A1718']}
           locations={[0, 0.55, 1]}
           style={[
             styles.amzznkWrriorsppeechFluxReadFade,
@@ -249,16 +251,15 @@ export function AmzznkWrriorsppeechFluxReadScreen({
           style={[
             styles.amzznkWrriorsppeechFluxReadControls,
             {
-              paddingBottom: Math.max(
-                amzznkWrriorsppeechFluxInsets.bottom,
-                16,
-              ),
+              paddingBottom: Math.max(amzznkWrriorsppeechFluxInsets.bottom, 16),
             },
           ]}>
           <Pressable
             onPress={amzznkWrriorsppeechFluxResetScroll}
             style={styles.amzznkWrriorsppeechFluxReadSideBtn}>
-            <Image source={require('../../assets/images/amzznkWrriorsppeechReadRestart.png')} />
+            <Image
+              source={require('../../assets/images/amzznkWrriorsppeechReadRestart.png')}
+            />
           </Pressable>
 
           <View style={styles.amzznkWrriorsppeechFluxReadCenter}>
@@ -296,15 +297,15 @@ export function AmzznkWrriorsppeechFluxReadScreen({
           <Pressable
             onPress={amzznkWrriorsppeechFluxFinish}
             style={styles.amzznkWrriorsppeechFluxReadSideBtn}>
-            <Image source={require('../../assets/images/amzznkWrriorsppeechReadDone.png')} />
+            <Image
+              source={require('../../assets/images/amzznkWrriorsppeechReadDone.png')}
+            />
           </Pressable>
         </View>
       </View>
     </View>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   amzznkWrriorsppeechFluxReadRoot: {

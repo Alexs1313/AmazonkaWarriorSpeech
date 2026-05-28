@@ -54,10 +54,8 @@ export function AmzznkWrriorsppeechStudioEditorSheet({
   amzznkWrriorsppeechStudioOnSave,
 }: AmzznkWrriorsppeechStudioEditorSheetProps) {
   const amzznkWrriorsppeechStudioInsets = useSafeAreaInsets();
-  const [studioTitle, setStudioTitle] =
-    useState('');
-  const [studioBody, setStudioBody] =
-    useState('');
+  const [studioTitle, setStudioTitle] = useState('');
+  const [studioBody, setStudioBody] = useState('');
 
   useEffect(() => {
     if (amzznkWrriorsppeechStudioVisible) {
@@ -78,6 +76,7 @@ export function AmzznkWrriorsppeechStudioEditorSheet({
     <Modal
       visible={amzznkWrriorsppeechStudioVisible}
       transparent
+      statusBarTranslucent={Platform.OS === 'android'}
       animationType="slide"
       onRequestClose={amzznkWrriorsppeechStudioOnClose}>
       <Pressable
@@ -117,12 +116,8 @@ export function AmzznkWrriorsppeechStudioEditorSheet({
             <Text style={styles.amzznkWrriorsppeechStudioModalContext}>
               Adding to:{' '}
               <Text style={styles.amzznkWrriorsppeechStudioModalContextAccent}>
-                {
-                  studioCategory.amzznkWrriorsppeechStudioCategoryEmoji
-                }{' '}
-                {
-                  studioCategory.amzznkWrriorsppeechStudioCategoryFullTitle
-                }
+                {studioCategory.amzznkWrriorsppeechStudioCategoryEmoji}{' '}
+                {studioCategory.amzznkWrriorsppeechStudioCategoryFullTitle}
               </Text>
             </Text>
 
@@ -179,7 +174,9 @@ export function AmzznkWrriorsppeechStudioEditorSheet({
                 <View
                   style={styles.amzznkWrriorsppeechStudioModalSaveBtnDisabled}>
                   <Text
-                    style={styles.amzznkWrriorsppeechStudioModalSaveTextDisabled}>
+                    style={
+                      styles.amzznkWrriorsppeechStudioModalSaveTextDisabled
+                    }>
                     Add Text ✓
                   </Text>
                 </View>
@@ -191,8 +188,6 @@ export function AmzznkWrriorsppeechStudioEditorSheet({
     </Modal>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   amzznkWrriorsppeechStudioModalOverlay: {
