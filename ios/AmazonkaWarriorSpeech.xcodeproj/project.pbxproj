@@ -433,7 +433,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uriuwnasd.saldkkad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdfkj.sdfjncapp;
 				PRODUCT_NAME = AmazonkaWarriorSpeech;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -465,7 +465,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uriuwnasd.saldkkad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdfkj.sdfjncapp;
 				PRODUCT_NAME = AmazonkaWarriorSpeech;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

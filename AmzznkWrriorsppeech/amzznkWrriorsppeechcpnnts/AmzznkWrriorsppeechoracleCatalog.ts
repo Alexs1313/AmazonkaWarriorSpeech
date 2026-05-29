@@ -23,7 +23,7 @@ export const amzznkWrriorsppeechOraclePromptsAll: AmzznkWrriorsppeechOraclePromp
     amzznkWrriorsppeechOraclePromptId: 'prompt-1',
     amzznkWrriorsppeechOraclePromptTitle: 'The Silent River',
     amzznkWrriorsppeechOraclePromptQuestion:
-      'I move through the jungle without feet, I speak without a mouth, And every Amazonka hears me at night. What am I?',
+      'I move through the jungle without feet, I speak without a mouth, And every Amazo hears me at night. What am I?',
     amzznkWrriorsppeechOraclePromptChoices: [
       {amzznkWrriorsppeechOracleChoiceId: 'A', amzznkWrriorsppeechOracleChoiceLabel: 'Fire'},
       {amzznkWrriorsppeechOracleChoiceId: 'B', amzznkWrriorsppeechOracleChoiceLabel: 'Wind'},
@@ -111,7 +111,7 @@ export const amzznkWrriorsppeechOraclePromptsAll: AmzznkWrriorsppeechOraclePromp
   },
   {
     amzznkWrriorsppeechOraclePromptId: 'prompt-7',
-    amzznkWrriorsppeechOraclePromptTitle: "Amazonka's Friend",
+    amzznkWrriorsppeechOraclePromptTitle: "Amazo's Friend",
     amzznkWrriorsppeechOraclePromptQuestion:
       'I protect warriors in battle, But I also protect speakers from fear. What am I?',
     amzznkWrriorsppeechOraclePromptChoices: [
@@ -264,7 +264,7 @@ export const amzznkWrriorsppeechOraclePromptsAll: AmzznkWrriorsppeechOraclePromp
   },
   {
     amzznkWrriorsppeechOraclePromptId: 'prompt-17',
-    amzznkWrriorsppeechOraclePromptTitle: 'The Amazonka Lesson',
+    amzznkWrriorsppeechOraclePromptTitle: 'The Amazo Lesson',
     amzznkWrriorsppeechOraclePromptQuestion:
       'I cannot be held in your hands, But every leader must learn me. What am I?',
     amzznkWrriorsppeechOraclePromptChoices: [

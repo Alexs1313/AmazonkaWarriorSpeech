@@ -20,11 +20,11 @@ export type AmzznkWrriorsppeechVaultPiece = {
 export const amzznkWrriorsppeechVaultPieces: AmzznkWrriorsppeechVaultPiece[] = [
   {
     amzznkWrriorsppeechVaultPieceId: 'vault-warrior-oath',
-    amzznkWrriorsppeechVaultPieceTitle: 'The Amazonka Oath',
+    amzznkWrriorsppeechVaultPieceTitle: 'The Amazo Oath',
     amzznkWrriorsppeechVaultPiecePreview:
       'I swear by the fire that forged me and the river that remembers my name: I will not be silent when truth deman...',
     amzznkWrriorsppeechVaultPieceBody:
-      'I swear by the fire that forged me and the river that remembers my name: I will not be silent when truth demands a voice. I will not flee when fear presses against my chest, for courage is practiced long before the battle begins. Every word I speak shall carry the weight of my ancestors and the clarity of my purpose. I train my breath as warriors train their shields — steady, ready, unbreakable. When the crowd listens, I will not rush; when the moment comes, I will stand tall and speak as one who has already won the war within. This is my oath to the Amazonka, to my tribe, and to the voice I am still becoming.',
+      'I swear by the fire that forged me and the river that remembers my name: I will not be silent when truth demands a voice. I will not flee when fear presses against my chest, for courage is practiced long before the battle begins. Every word I speak shall carry the weight of my ancestors and the clarity of my purpose. I train my breath as warriors train their shields — steady, ready, unbreakable. When the crowd listens, I will not rush; when the moment comes, I will stand tall and speak as one who has already won the war within. This is my oath to the Amazo, to my tribe, and to the voice I am still becoming.',
     amzznkWrriorsppeechVaultPieceCategoryId: 'warrior',
     amzznkWrriorsppeechVaultPiecePrice: 6,
     amzznkWrriorsppeechVaultPieceEmoji: '⚔️',
@@ -57,7 +57,7 @@ export const amzznkWrriorsppeechVaultPieces: AmzznkWrriorsppeechVaultPiece[] = [
     amzznkWrriorsppeechVaultPiecePreview:
       'The river carries sound farther than anger ever could. Stand beside moving water and practice until your voice...',
     amzznkWrriorsppeechVaultPieceBody:
-      'The river carries sound farther than anger ever could. Stand beside moving water and practice until your voice flows with it — never fighting the current of your breath. Echoes return what you send; send clarity, receive trust. Amazonka speakers who train by the river learn that repetition is not weakness but rhythm. Each phrase should arrive like a wave: built in silence, delivered with purpose, gone before it overwhelms. When night falls and the camp grows quiet, let your final words be the ones the river remembers. Tomorrow, the tribe will repeat them back to you.',
+      'The river carries sound farther than anger ever could. Stand beside moving water and practice until your voice flows with it — never fighting the current of your breath. Echoes return what you send; send clarity, receive trust. Amazo speakers who train by the river learn that repetition is not weakness but rhythm. Each phrase should arrive like a wave: built in silence, delivered with purpose, gone before it overwhelms. When night falls and the camp grows quiet, let your final words be the ones the river remembers. Tomorrow, the tribe will repeat them back to you.',
     amzznkWrriorsppeechVaultPieceCategoryId: 'jungle',
     amzznkWrriorsppeechVaultPiecePrice: 9,
     amzznkWrriorsppeechVaultPieceEmoji: '🌿',

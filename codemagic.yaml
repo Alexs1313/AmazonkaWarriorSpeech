@@ -1,20 +1,20 @@
 workflows:
   ios-workflow:
-    name: 'AmazonKa Voice Public'
+    name: 'Amazo Warrior Speech'
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: AmzSpeechAPIKey
+      app_store_connect: AmzSpAPIKey
     environment:
       xcode: '26.0'
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.uriuwnasd.saldkkad
+        bundle_identifier: com.sdfkj.sdfjncapp
       vars:
-        BUNDLE_ID: com.uriuwnasd.saldkkad
+        BUNDLE_ID: com.sdfkj.sdfjncapp
         XCODE_WORKSPACE: AmazonkaWarriorSpeech.xcworkspace
         XCODE_SCHEME: AmazonkaWarriorSpeech
-        APP_STORE_APPLE_ID: 6774118101
+        APP_STORE_APPLE_ID: 6774513841
     scripts:
       - name: Install npm dependencies
         script: |

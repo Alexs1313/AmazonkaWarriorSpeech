@@ -45,7 +45,7 @@ export const amzznkWrriorsppeechNotebookNotes: AmzznkWrriorsppeechNotebookNote[]
     amzznkWrriorsppeechNotebookNoteId: 'voice-1',
     amzznkWrriorsppeechNotebookNoteTitle: 'Strong Morning Voice',
     amzznkWrriorsppeechNotebookNoteBody:
-      'Start every morning with slow breathing and clear reading practice for at least five minutes. The Amazonka warriors believed the voice becomes stronger when trained early in the day while the mind is calm and focused. Speak clearly and avoid rushing through words.',
+      'Start every morning with slow breathing and clear reading practice for at least five minutes. The Amazo warriors believed the voice becomes stronger when trained early in the day while the mind is calm and focused. Speak clearly and avoid rushing through words.',
     amzznkWrriorsppeechNotebookNoteCategoryId: 'voice',
     amzznkWrriorsppeechNotebookNoteFooter: '— Voice Power',
   },
@@ -61,7 +61,7 @@ export const amzznkWrriorsppeechNotebookNotes: AmzznkWrriorsppeechNotebookNote[]
     amzznkWrriorsppeechNotebookNoteId: 'voice-3',
     amzznkWrriorsppeechNotebookNoteTitle: 'Train With Loud Reading',
     amzznkWrriorsppeechNotebookNoteBody:
-      'Choose a text and read it out loud with strong emotion and energy. Amazonka leaders practiced speeches near waterfalls and rivers to strengthen vocal power. Reading loudly improves pronunciation, confidence, and speaking endurance.',
+      'Choose a text and read it out loud with strong emotion and energy. Amazo leaders practiced speeches near waterfalls and rivers to strengthen vocal power. Reading loudly improves pronunciation, confidence, and speaking endurance.',
     amzznkWrriorsppeechNotebookNoteCategoryId: 'voice',
     amzznkWrriorsppeechNotebookNoteFooter: '— Voice Power',
   },
@@ -77,7 +77,7 @@ export const amzznkWrriorsppeechNotebookNotes: AmzznkWrriorsppeechNotebookNote[]
     amzznkWrriorsppeechNotebookNoteId: 'voice-5',
     amzznkWrriorsppeechNotebookNoteTitle: 'Use Powerful Pauses',
     amzznkWrriorsppeechNotebookNoteBody:
-      'Do not fear silence while speaking. Short pauses between important ideas help listeners focus and understand your message more clearly. Amazonka queens often paused before powerful statements to create stronger emotional impact.',
+      'Do not fear silence while speaking. Short pauses between important ideas help listeners focus and understand your message more clearly. Amazo queens often paused before powerful statements to create stronger emotional impact.',
     amzznkWrriorsppeechNotebookNoteCategoryId: 'voice',
     amzznkWrriorsppeechNotebookNoteFooter: '— Voice Power',
   },
@@ -101,7 +101,7 @@ export const amzznkWrriorsppeechNotebookNotes: AmzznkWrriorsppeechNotebookNote[]
     amzznkWrriorsppeechNotebookNoteId: 'speech-2',
     amzznkWrriorsppeechNotebookNoteTitle: 'Focus on Difficult Sounds',
     amzznkWrriorsppeechNotebookNoteBody:
-      'Find letters or words that feel difficult to pronounce and repeat them several times daily. Amazonka storytellers trained difficult phrases repeatedly until their speech became smooth and natural.',
+      'Find letters or words that feel difficult to pronounce and repeat them several times daily. Amazo storytellers trained difficult phrases repeatedly until their speech became smooth and natural.',
     amzznkWrriorsppeechNotebookNoteCategoryId: 'speech',
     amzznkWrriorsppeechNotebookNoteFooter: '— Speech Control',
   },
@@ -141,7 +141,7 @@ export const amzznkWrriorsppeechNotebookNotes: AmzznkWrriorsppeechNotebookNote[]
     amzznkWrriorsppeechNotebookNoteId: 'confidence-1',
     amzznkWrriorsppeechNotebookNoteTitle: 'Stand Like a Leader',
     amzznkWrriorsppeechNotebookNoteBody:
-      'Your posture changes the way your voice sounds. Keep your shoulders relaxed, stand tall, and maintain a stable position while speaking. Amazonka queens believed confident posture creates confident communication.',
+      'Your posture changes the way your voice sounds. Keep your shoulders relaxed, stand tall, and maintain a stable position while speaking. Amazo queens believed confident posture creates confident communication.',
     amzznkWrriorsppeechNotebookNoteCategoryId: 'confidence',
     amzznkWrriorsppeechNotebookNoteFooter: '— Speaker Confidence',
   },
@@ -181,7 +181,7 @@ export const amzznkWrriorsppeechNotebookNotes: AmzznkWrriorsppeechNotebookNote[]
     amzznkWrriorsppeechNotebookNoteId: 'confidence-6',
     amzznkWrriorsppeechNotebookNoteTitle: 'Speak With Purpose',
     amzznkWrriorsppeechNotebookNoteBody:
-      'Imagine your words carry important meaning and value. Amazonka leaders spoke with clear intention because they believed every sentence could inspire courage or wisdom. Purpose naturally adds confidence to communication.',
+      'Imagine your words carry important meaning and value. Amazo leaders spoke with clear intention because they believed every sentence could inspire courage or wisdom. Purpose naturally adds confidence to communication.',
     amzznkWrriorsppeechNotebookNoteCategoryId: 'confidence',
     amzznkWrriorsppeechNotebookNoteFooter: '— Speaker Confidence',
   },

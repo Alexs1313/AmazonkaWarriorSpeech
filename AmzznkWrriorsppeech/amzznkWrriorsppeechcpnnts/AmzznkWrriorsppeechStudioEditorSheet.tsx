@@ -69,8 +69,7 @@ export function AmzznkWrriorsppeechStudioEditorSheet({
   ]);
 
   const amzznkWrriorsppeechStudioCanSave =
-    studioTitle.trim().length > 0 &&
-    amzznkWrriorsppeechStudioEditBody.trim().length > 0;
+    studioTitle.trim().length > 0 && studioBody.trim().length > 0;
 
   return (
     <Modal

@@ -62,7 +62,7 @@ export function AmzznkWrriorsppeechNotebookHomeScreen() {
           Diction Tips
         </Text>
         <Text style={styles.amzznkWrriorsppeechNotebookHomeSubtitle}>
-          Ancient Amazonka wisdom for modern speakers
+          Ancient Amazo wisdom for modern speakers
         </Text>
 
         <View style={styles.amzznkWrriorsppeechNotebookHomeStatsRow}>
@@ -93,7 +93,7 @@ export function AmzznkWrriorsppeechNotebookHomeScreen() {
               ⚔️
             </Text>
             <Text style={styles.amzznkWrriorsppeechNotebookHomeStatValue}>
-              Amazonka
+              Amazo
             </Text>
             <Text style={styles.amzznkWrriorsppeechNotebookHomeStatLabel}>
               Methods

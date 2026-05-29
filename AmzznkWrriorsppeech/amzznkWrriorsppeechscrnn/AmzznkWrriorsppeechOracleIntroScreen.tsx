@@ -109,7 +109,7 @@ export function AmzznkWrriorsppeechOracleIntroScreen({
           Voice Oracle
         </Text>
         <Text style={styles.amzznkWrriorsppeechOracleIntroSubtitle}>
-          Prove your wisdom to the Oracle of the Amazonka
+          Prove your wisdom to the Oracle of the Amazo
         </Text>
 
         <View style={styles.amzznkWrriorsppeechOracleOracleCardOuter}>
@@ -124,12 +124,12 @@ export function AmzznkWrriorsppeechOracleIntroScreen({
                 <Text style={styles.amzznkWrriorsppeechOracleOracleIcon}>🏺</Text>
               </View>
               <Text style={styles.amzznkWrriorsppeechOracleOracleLabel}>
-                The Amazonka Oracle
+                The Amazo Oracle
               </Text>
               <Text style={styles.amzznkWrriorsppeechOracleOracleQuote}>
                 Three trials stand between you and honor.{'\n'}
                 Answer with wisdom — and the swords of the{'\n'}
-                Amazonka shall be yours.
+                Amazo shall be yours.
               </Text>
             </View>
           </LinearGradient>

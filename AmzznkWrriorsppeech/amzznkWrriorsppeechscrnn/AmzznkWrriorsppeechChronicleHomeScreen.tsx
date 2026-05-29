@@ -89,7 +89,7 @@ export function AmzznkWrriorsppeechChronicleHomeScreen({
         </Text>
         <Text style={styles.amzznkWrriorsppeechChronicleHomeTitle}>Chronicles</Text>
         <Text style={styles.amzznkWrriorsppeechChronicleHomeSubtitle}>
-          Tales of power, voice and Amazonka sisterhood
+          Tales of power, voice and Amazo sisterhood
         </Text>
 
         <View style={styles.amzznkWrriorsppeechChronicleHomeStatsRow}>

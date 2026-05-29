@@ -36,7 +36,7 @@ const amzznkWrriorsppeechWalkSteps: AmzznkWrriorsppeechWalkScreenStep[] = [
   {
     amzznkWrriorsppeechWalkTitle: 'I Am Lyra, Amazonka Warrior',
     amzznkWrriorsppeechWalkBody:
-      'Greetings, seeker. I am Lyra — warrior, orator, keeper of the ancient voice traditions of the Amazonka sisterhood. I have come to guide you on a journey that will transform not just your words, but your entire presence.',
+      'Greetings, seeker. I am Lyra — warrior, orator, keeper of the ancient voice traditions of the Amazo sisterhood. I have come to guide you on a journey that will transform not just your words, but your entire presence.',
     amzznkWrriorsppeechWalkQuote:
       '"Your voice is a weapon. Let us forge it together."',
     amzznkWrriorsppeechWalkBgColors: [
@@ -62,7 +62,7 @@ const amzznkWrriorsppeechWalkSteps: AmzznkWrriorsppeechWalkScreenStep[] = [
   {
     amzznkWrriorsppeechWalkTitle: 'Stories of Our Sisterhood',
     amzznkWrriorsppeechWalkBody:
-      'Every Amazonka carries stories — legends of queens, myths of power, adventures in the deep jungle. Reading these stories aloud will shape your intonation, your emotion, your connection with language.',
+      'Every Amazo carries stories — legends of queens, myths of power, adventures in the deep jungle. Reading these stories aloud will shape your intonation, your emotion, your connection with language.',
     amzznkWrriorsppeechWalkQuote: '"Save your favorites. Share the wisdom."',
     amzznkWrriorsppeechWalkBgColors: [
       '#1A1A3D',
@@ -86,7 +86,7 @@ const amzznkWrriorsppeechWalkSteps: AmzznkWrriorsppeechWalkScreenStep[] = [
   {
     amzznkWrriorsppeechWalkTitle: 'Your Voice Journey Begins',
     amzznkWrriorsppeechWalkBody:
-      'The Amazonka way is not about perfection — it is about practice, consistency, and the courage to speak clearly and powerfully. I will be with you every step of this journey.',
+      'The Amazo way is not about perfection — it is about practice, consistency, and the courage to speak clearly and powerfully. I will be with you every step of this journey.',
     amzznkWrriorsppeechWalkQuote: '"Rise. Breathe. Speak. You are ready."',
     amzznkWrriorsppeechWalkBgColors: [
       '#2D1A00',

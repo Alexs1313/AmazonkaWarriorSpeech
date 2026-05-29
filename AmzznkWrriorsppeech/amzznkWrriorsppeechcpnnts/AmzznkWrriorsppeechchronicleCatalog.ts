@@ -60,8 +60,8 @@ export const amzznkWrriorsppeechChronicleEntries: AmzznkWrriorsppeechChronicleEn
     amzznkWrriorsppeechChronicleEntryId: 'entry-1',
     amzznkWrriorsppeechChronicleEntryTitle: 'The Queen Who Spoke Without Fear',
     amzznkWrriorsppeechChronicleEntryDescription:
-      'Long ago, deep inside the jungle valley, there lived an Amazonka queen named Velara respected for the way she spoke to people.',
-    amzznkWrriorsppeechChronicleEntryBody: `Long ago, deep inside the jungle valley, there lived an Amazonka queen named Velara. She was respected across many tribes not because she was the strongest warrior, but because of the way she spoke to people. Her voice sounded calm during danger, powerful during battle, and inspiring during difficult times. Young warriors often gathered near the fire to listen to her evening speeches.
+      'Long ago, deep inside the jungle valley, there lived an Amazo queen named Velara respected for the way she spoke to people.',
+    amzznkWrriorsppeechChronicleEntryBody: `Long ago, deep inside the jungle valley, there lived an Amazo queen named Velara. She was respected across many tribes not because she was the strongest warrior, but because of the way she spoke to people. Her voice sounded calm during danger, powerful during battle, and inspiring during difficult times. Young warriors often gathered near the fire to listen to her evening speeches.
 
 One day, a frightened young warrior asked the queen how she learned to speak with such confidence. Velara explained that many years earlier, she had also feared speaking in front of others. During her first speech, her voice trembled and her words became confused. Instead of giving up, she practiced every morning beside the river while reading ancient stories aloud. She trained her breathing, pronunciation, and posture every single day.
 
@@ -75,8 +75,8 @@ Over time, her voice became stronger and more controlled. The queen taught her w
     amzznkWrriorsppeechChronicleEntryId: 'entry-2',
     amzznkWrriorsppeechChronicleEntryTitle: 'The Storyteller Near the Waterfall',
     amzznkWrriorsppeechChronicleEntryDescription:
-      'Near the largest waterfall in the jungle lived an old Amazonka storyteller named Lina who trained warriors to control breathing and speech.',
-    amzznkWrriorsppeechChronicleEntryBody: `Near the largest waterfall in the jungle lived an old Amazonka storyteller named Lina. She believed the sound of rushing water could teach people how to control their breathing and speech. Every week, young warriors traveled to the waterfall to train with her.
+      'Near the largest waterfall in the jungle lived an old Amazo storyteller named Lina who trained warriors to control breathing and speech.',
+    amzznkWrriorsppeechChronicleEntryBody: `Near the largest waterfall in the jungle lived an old Amazo storyteller named Lina. She believed the sound of rushing water could teach people how to control their breathing and speech. Every week, young warriors traveled to the waterfall to train with her.
 
 Lina asked each warrior to stand near the water and read stories loudly enough to rise above the sound of the waterfall. At first, many struggled because the water was extremely loud. Some spoke too quickly, while others lost confidence after making mistakes. Lina calmly explained that clear speech requires patience and emotional control.
 
@@ -110,7 +110,7 @@ Months later, during an important gathering between tribes, Elira finally stood 
       'Far beyond the northern cliffs existed a mysterious place called the Jungle of Echoes that repeated every word spoken by travelers.',
     amzznkWrriorsppeechChronicleEntryBody: `Far beyond the northern cliffs existed a mysterious place called the Jungle of Echoes. According to ancient legends, the jungle repeated every word spoken by travelers. Some warriors feared the place because they believed the echoes revealed weakness and uncertainty hidden inside the speaker's voice.
 
-A group of young Amazonka warriors decided to travel there as part of their speaking training. Their instructor explained that the jungle would help them hear every mistake in pronunciation, breathing, and rhythm. As the warriors spoke, their voices echoed loudly between the giant trees.
+A group of young Amazo warriors decided to travel there as part of their speaking training. Their instructor explained that the jungle would help them hear every mistake in pronunciation, breathing, and rhythm. As the warriors spoke, their voices echoed loudly between the giant trees.
 
 Some warriors discovered they were speaking too quickly. Others realized their words lacked confidence or emotional expression. One warrior named Talia became frustrated after hearing her nervous voice repeated again and again through the forest.
 
@@ -123,8 +123,8 @@ The instructor reminded her that improvement begins when people recognize their 
     amzznkWrriorsppeechChronicleEntryId: 'entry-5',
     amzznkWrriorsppeechChronicleEntryTitle: 'The Voice of the Golden Temple',
     amzznkWrriorsppeechChronicleEntryDescription:
-      'Deep inside the jungle stood a golden temple where Amazonka leaders once trained future queens and speakers.',
-    amzznkWrriorsppeechChronicleEntryBody: `Deep inside the jungle stood a golden temple where Amazonka leaders once trained future queens and speakers. The walls of the temple were covered with ancient writings about communication, leadership, and confidence.
+      'Deep inside the jungle stood a golden temple where Amazo leaders once trained future queens and speakers.',
+    amzznkWrriorsppeechChronicleEntryBody: `Deep inside the jungle stood a golden temple where Amazo leaders once trained future queens and speakers. The walls of the temple were covered with ancient writings about communication, leadership, and confidence.
 
 A young student named Nira traveled there hoping to improve her speech before an important ceremony. Inside the temple, she discovered old lessons carved into stone. One message especially caught her attention: "A powerful voice begins with a calm mind."
 
@@ -139,8 +139,8 @@ Before leaving the temple, Nira gave one final speech inside the great hall. Her
     amzznkWrriorsppeechChronicleEntryId: 'entry-6',
     amzznkWrriorsppeechChronicleEntryTitle: "The Queen's Evening Lessons",
     amzznkWrriorsppeechChronicleEntryDescription:
-      'Every evening after training, the Amazonka queen gathered young warriors around a large fire to share lessons about leadership.',
-    amzznkWrriorsppeechChronicleEntryBody: `Every evening after training, the Amazonka queen gathered young warriors around a large fire near the center of the camp. While the jungle slowly became darker around them, she shared lessons about leadership and communication.
+      'Every evening after training, the Amazo queen gathered young warriors around a large fire to share lessons about leadership.',
+    amzznkWrriorsppeechChronicleEntryBody: `Every evening after training, the Amazo queen gathered young warriors around a large fire near the center of the camp. While the jungle slowly became darker around them, she shared lessons about leadership and communication.
 
 The queen explained that many warriors focus only on physical strength while ignoring the power of words. According to her wisdom, a strong voice can inspire courage, calm fear, and unite people during difficult moments.
 
